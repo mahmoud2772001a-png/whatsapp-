@@ -38,7 +38,7 @@ async function connectToWhatsApp() {
         } else if (connection === 'open') {
             console.log('✅ Bot connected successfully!');
         }
-    });
+    }); 
 
     sock.ev.on('creds.update', saveCreds);
 }
